@@ -1,0 +1,79 @@
+.search {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.search select {
+  width: 130px;
+  height: 35px;
+
+  font-size: 15px;
+  color: #999;
+
+  border: 2px solid #ddd;
+  background: url(../image/bg_select.png) no-repeat right 9px center;
+
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.search select::-ms-expand {
+  opacity: 0;
+}
+
+.searchBtn {
+  font-size: 15px;
+  width: 55px;
+  height: 35px;
+  color: #999;
+  border: 2px solid #ddd;
+  background-color: #ffffff;
+  margin-left: 12px;
+}
+
+.searchBtn:hover {
+  border-color: #000000;
+  color: #000000;
+}
+
+.input {
+  margin-left: 13px;
+  width: 300px;
+  height: 29px;
+
+  font-size: 15px;
+  color: #999;
+  border: 2px solid #ddd;
+}
+
+.searchResult {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+  max-width: 1100px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+  position: relative; /* 상대 위치 */
+  z-index: 1; /* 낮은 z-index */
+}
+
+.searchResult img {
+  margin: 10px 0;
+}
+
+.searchResult1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.charImg {
+  border: 2px solid #000000; /* 원하는 색상과 두께로 변경 가능 */
+  border-radius: 5px; /* 모서리를 둥글게 하고 싶다면 추가 */
+  padding: 5px; /* 이미지와 테두리 사이에 여백을 추가 */
+  display: flex;
+}

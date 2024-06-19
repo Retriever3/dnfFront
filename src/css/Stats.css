@@ -1,0 +1,9 @@
+table {
+    margin: 0 20px;
+    border-collapse: collapse;
+  }
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
